@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>SciReader Home Page</title>
+  </head>
+  <body data-lift-content-id="main">
+    <div id="main" data-lift="surround?with=default;at=content">
+      <h1>Welcome to SciReader!</h1>
+      <p>
+        <span data-lift="HelloWorld.count">
+          Recent <span id="count">[count]</span> papers on cond-mat.supr-cond:
+        </span>
+      </p>
+        <div data-lift="HelloWorld.recentList">
+          <ol class="titles">
+            <li id="arxivTitle"><h3>[arXivTitle]</h3></li>
+          </ol>
+        </div>
+    </div>
+  </body>
+</html>

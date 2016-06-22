@@ -1,0 +1,15 @@
+compile
+reload
+compile
+container::start
+container:start
+reload
+container:restart
+reload
+container:restart
+container:start
+container:restart
+console
+container:start
+coainer:restart
+container:restart
