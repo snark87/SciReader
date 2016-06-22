@@ -15,6 +15,8 @@ cat	Subject Category
 rn	Report Number
 id	Id (use id_list instead)*/
 
+
+
 /**
   * http://export.arxiv.org/api/query?search_query=cat:cond-mat.supr-con&sortBy=submittedDate&sortOrder=descending
   * Created by pavel on 6/20/16.
@@ -27,6 +29,12 @@ class Fetcher(arxivApiUrl: String) {
   val tagUpdated = "updated"
   val tagPublished = "published"
 
+
+//todo: merging different cats
+  // (possible problem: there are intersections)
+
+  def fetchCatsByDate(categories:List[String], afterFilter: Date => Boolean): Vector[ArxivEntry] = ???
+  def merge(vectors: List[Vector[ArxivEntry]]): Vector[ArxivEntry] = ???
   /**
     *
     * @param cat arXiv category e.g. "cond-mat.supr-con"
@@ -40,13 +48,14 @@ class Fetcher(arxivApiUrl: String) {
 
       val atom = fetchXML(query.start(start).maxResults(maxResults).text)
       val papers = entries(atom)
-      if (papers.isEmpty) papers
+      if (papers.isEmpty) papers  //recursion ends if out of papers
       else {
         val lastDate = papers.last.published
         if (afterFilter(lastDate)) {
-          fetchPage(acc ++ papers, start + papers.length, maxResults)
+          fetchPage(acc ++ papers, start + papers.length, maxResults)   //goto next page, tail recursion
         } else
-          acc ++ papers.filter(p => afterFilter(p.published)) //todo: optimize - the results are already sorted
+          acc ++ papers.filter(p => afterFilter(p.published)) //todo: optimize - the results are already sorted;
+                                                              //recursion ends if last paper is too old
       }
     }
     val resultsPerPage = 10 //magic number
