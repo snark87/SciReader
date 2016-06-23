@@ -13,3 +13,9 @@ console
 container:start
 coainer:restart
 container:restart
+container:start
+container:stop
+exit
+reload
+container:start
+container:restart

@@ -13,6 +13,7 @@ node.text
 
 val entries = atom \\ "entry"
 val entry = entries.toList.head
+(entry \ "author")
 (entry \ "title").text
 (entry \ "link") \@("title")
 val format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss")
@@ -28,8 +29,10 @@ import java.util.Calendar
 Calendar.getInstance.getTime
 1.toString
 
-val threedays = fetcher.fetchByDate("cond-mat.supr-con", arxiv.beforeToday(3))
-threedays.map(p => p.published)
-
+val recent = fetcher.fetchByDate("cond-mat.supr-con", arxiv.beforeToday(21))
+//val abstracts = recent map(_.summary)
+//val words = abstracts.flatMap(_.split(' ')).map(_.toLowerCase)
+//val grouped = words.groupBy(x => x).map({case(k,v) => (k->v.length)})
+//grouped.toSeq.sortBy(-_._2)
 
 

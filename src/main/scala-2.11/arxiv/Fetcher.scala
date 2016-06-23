@@ -28,6 +28,8 @@ class Fetcher(arxivApiUrl: String) {
   val tagLink = "link"
   val tagUpdated = "updated"
   val tagPublished = "published"
+  val tagAuthor = "author"
+  val tagName = "name"
 
 
 //todo: merging different cats
@@ -78,7 +80,9 @@ class Fetcher(arxivApiUrl: String) {
     val links = (atom \ tagLink).toList map link
     val updated = datetime((atom \ tagUpdated).text)
     val published = datetime((atom \ tagPublished).text)
-    ArxivEntry(title, summary, links, updated, published)
+    val authors = (atom \ tagAuthor).toList map(node => ArxivAuthor((node\tagName).text))
+
+    ArxivEntry(title, authors, summary, links, updated, published)
   }
 
   def datetime(s: String): Date = {

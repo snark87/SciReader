@@ -3,8 +3,14 @@
   <head>
     <meta charset="UTF-8">
     <title>SciReader Home Page</title>
+    <style>
+    .author{
+       font-style: italic;
+    }
+  </style>
+
   </head>
-  <body data-lift-content-id="main">
+ <body><!-- data-lift-content-id="main"-->
     <div id="main" data-lift="surround?with=default;at=content">
       <h1>Welcome to SciReader!</h1>
       <p>
@@ -15,7 +21,7 @@
         <div data-lift="HelloWorld.recentList">
           <ol class="titles">
             <li id="arxivEntry"><h3 id="arxivTitle">[arXivTitle]</h3>
-              <span id="arxivAuthors"><span id="arxivAuthor">[author]</span></span>
+              <span id="arxivAuthors"><span class="author" id="arxivAuthor">[author]</span></span>
               <p><a href="">Seems interesting</a></p>
               <p id="arxivAbstract">[Here goes abstract]</p>
             </li>

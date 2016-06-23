@@ -6,17 +6,21 @@
   </head>
   <body data-lift-content-id="main">
     <div id="main" data-lift="surround?with=default;at=content">
-      <h2>Welcome to SciReader!</h2>
+      <h1>Welcome to SciReader!</h1>
       <p>
-        <span data-lift="HelloWorld.howdy">
-          Currently <span id="recentCount">[number of arxiv papers]</span> recent papers in cond-mat.supr-con
-          for the last 7 days.
-          <ul class="titles">
-            <li id="arxivTitle">ArXiv paper title</li>
-          </ul>
-          <li>zzz</li>
+        <span data-lift="HelloWorld.count">
+          Recent <span id="count">[count]</span> papers on cond-mat.supr-cond:
         </span>
       </p>
+        <div data-lift="HelloWorld.recentList">
+          <ol class="titles">
+            <li id="arxivEntry"><h3 id="arxivTitle">[arXivTitle]</h3>
+              <span id="arxivAuthors"><span id="arxivAuthor">[author]</span></span>
+              <p><a href="">Seems interesting</a></p>
+              <p id="arxivAbstract">[Here goes abstract]</p>
+            </li>
+          </ol>
+        </div>
     </div>
   </body>
 </html>

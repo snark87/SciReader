@@ -35,7 +35,8 @@ Measurements of the London penetration depth and tunneling conductance in single
 
 case class ArxivLink(title: String, href: String)
 
-//todo: Authors
-case class ArxivEntry (title: String, summary: String, links: List[ArxivLink], updated: Date, published: Date)
+case class ArxivAuthor(name: String)
+
+case class ArxivEntry (title: String, authors: List[ArxivAuthor], summary: String, links: List[ArxivLink], updated: Date, published: Date)
 
 

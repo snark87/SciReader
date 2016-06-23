@@ -8,7 +8,7 @@
 [debug] == resolving dependencies for default#scireader$sources_2.11;1.0 [compile]
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3da724b6
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@25cdb02e
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.7
 [debug] 	found org.scala-lang#scala-library;2.11.7 in sbt-chain
 [debug] 	[2.11.7] org.scala-lang#scala-library;2.11.7
@@ -17,7 +17,7 @@
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->master]
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->net.liftweb#lift-webkit_2.11;3.0-RC3 [compile->default(compile)]
 [info] Resolving net.liftweb#lift-webkit_2.11;3.0-RC3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6ac8df74
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5758a717
 [debug] sbt-chain: module revision found in cache: net.liftweb#lift-webkit_2.11;3.0-RC3
 [debug] 	found net.liftweb#lift-webkit_2.11;3.0-RC3 in sbt-chain
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->net.liftweb#lift-webkit_2.11;3.0-RC3 [compile->runtime]
@@ -25,7 +25,7 @@
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->net.liftweb#lift-webkit_2.11;3.0-RC3 [compile->master]
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->net.liftweb#lift-util_2.11;3.0-RC3 [compile->default(compile)]
 [info] Resolving net.liftweb#lift-util_2.11;3.0-RC3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@588e9af7
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3ccdd609
 [debug] sbt-chain: module revision found in cache: net.liftweb#lift-util_2.11;3.0-RC3
 [debug] 	found net.liftweb#lift-util_2.11;3.0-RC3 in sbt-chain
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->net.liftweb#lift-util_2.11;3.0-RC3 [compile->runtime]
@@ -33,7 +33,7 @@
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->net.liftweb#lift-util_2.11;3.0-RC3 [compile->master]
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.scala-lang#scala-compiler;2.11.7 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-compiler;2.11.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6569759a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4c34e3fc
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.11.7
 [debug] 	found org.scala-lang#scala-compiler;2.11.7 in sbt-chain
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.scala-lang#scala-compiler;2.11.7 [compile->runtime]
@@ -41,7 +41,7 @@
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.scala-lang#scala-compiler;2.11.7 [compile->master]
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-reflect;2.11.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@184f8caa
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3a9e3373
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.7
 [debug] 	found org.scala-lang#scala-reflect;2.11.7 in sbt-chain
 [debug] 	[2.11.7] org.scala-lang#scala-reflect;2.11.7
@@ -50,7 +50,7 @@
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [compile->master]
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@53ca5100
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@385763d8
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4
 [debug] 	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 in sbt-chain
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->runtime]
@@ -58,7 +58,7 @@
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master]
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->net.liftweb#lift-actor_2.11;3.0-RC3 [compile->default(compile)]
 [info] Resolving net.liftweb#lift-actor_2.11;3.0-RC3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5d9692a4
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@430f1c6f
 [debug] sbt-chain: module revision found in cache: net.liftweb#lift-actor_2.11;3.0-RC3
 [debug] 	found net.liftweb#lift-actor_2.11;3.0-RC3 in sbt-chain
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->net.liftweb#lift-actor_2.11;3.0-RC3 [compile->runtime]
@@ -66,7 +66,7 @@
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->net.liftweb#lift-actor_2.11;3.0-RC3 [compile->master]
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->net.liftweb#lift-common_2.11;3.0-RC3 [compile->default(compile)]
 [info] Resolving net.liftweb#lift-common_2.11;3.0-RC3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7efb3dfc
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4625176d
 [debug] sbt-chain: module revision found in cache: net.liftweb#lift-common_2.11;3.0-RC3
 [debug] 	found net.liftweb#lift-common_2.11;3.0-RC3 in sbt-chain
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->net.liftweb#lift-common_2.11;3.0-RC3 [compile->runtime]
@@ -74,7 +74,7 @@
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->net.liftweb#lift-common_2.11;3.0-RC3 [compile->master]
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.5 [compile->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@372e9b2
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@34d03632
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.5
 [debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.5 in sbt-chain
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.5 [compile->runtime]
@@ -82,7 +82,7 @@
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.5 [compile->master]
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->net.liftweb#lift-json_2.11;3.0-RC3 [compile->default(compile)]
 [info] Resolving net.liftweb#lift-json_2.11;3.0-RC3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@31ace5f9
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@ced54f5
 [debug] sbt-chain: module revision found in cache: net.liftweb#lift-json_2.11;3.0-RC3
 [debug] 	found net.liftweb#lift-json_2.11;3.0-RC3 in sbt-chain
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->net.liftweb#lift-json_2.11;3.0-RC3 [compile->runtime]
@@ -90,7 +90,7 @@
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->net.liftweb#lift-json_2.11;3.0-RC3 [compile->master]
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.scala-lang#scalap;2.11.7 [compile->default(compile)]
 [info] Resolving org.scala-lang#scalap;2.11.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1fc56b19
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5b733ab6
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scalap;2.11.7
 [debug] 	found org.scala-lang#scalap;2.11.7 in sbt-chain
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.scala-lang#scalap;2.11.7 [compile->runtime]
@@ -98,7 +98,7 @@
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.scala-lang#scalap;2.11.7 [compile->master]
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->com.thoughtworks.paranamer#paranamer;2.8 [compile->default(compile)]
 [info] Resolving com.thoughtworks.paranamer#paranamer;2.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@640bab82
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@461676c1
 [debug] sbt-chain: module revision found in cache: com.thoughtworks.paranamer#paranamer;2.8
 [debug] 	found com.thoughtworks.paranamer#paranamer;2.8 in sbt-chain
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->com.thoughtworks.paranamer#paranamer;2.8 [compile->runtime]
@@ -106,7 +106,7 @@
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->com.thoughtworks.paranamer#paranamer;2.8 [compile->master]
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->net.liftweb#lift-markdown_2.11;3.0-RC3 [compile->default(compile)]
 [info] Resolving net.liftweb#lift-markdown_2.11;3.0-RC3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@c2264a0
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3cddecca
 [debug] sbt-chain: module revision found in cache: net.liftweb#lift-markdown_2.11;3.0-RC3
 [debug] 	found net.liftweb#lift-markdown_2.11;3.0-RC3 in sbt-chain
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->net.liftweb#lift-markdown_2.11;3.0-RC3 [compile->runtime]
@@ -114,7 +114,7 @@
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->net.liftweb#lift-markdown_2.11;3.0-RC3 [compile->master]
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->joda-time#joda-time;2.9.2 [compile->default(compile)]
 [info] Resolving joda-time#joda-time;2.9.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@55b110c7
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5a6c48ac
 [debug] sbt-chain: module revision found in cache: joda-time#joda-time;2.9.2
 [debug] 	found joda-time#joda-time;2.9.2 in sbt-chain
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->joda-time#joda-time;2.9.2 [compile->runtime]
@@ -122,7 +122,7 @@
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->joda-time#joda-time;2.9.2 [compile->master]
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.joda#joda-convert;1.8.1 [compile->default(compile)]
 [info] Resolving org.joda#joda-convert;1.8.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@71fb2954
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@55564152
 [debug] sbt-chain: module revision found in cache: org.joda#joda-convert;1.8.1
 [debug] 	found org.joda#joda-convert;1.8.1 in sbt-chain
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.joda#joda-convert;1.8.1 [compile->runtime]
@@ -130,7 +130,7 @@
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.joda#joda-convert;1.8.1 [compile->master]
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->commons-codec#commons-codec;1.10 [compile->default(compile)]
 [info] Resolving commons-codec#commons-codec;1.10 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1bb4c09
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3547e042
 [debug] sbt-chain: module revision found in cache: commons-codec#commons-codec;1.10
 [debug] 	found commons-codec#commons-codec;1.10 in sbt-chain
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->commons-codec#commons-codec;1.10 [compile->runtime]
@@ -138,7 +138,7 @@
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->commons-codec#commons-codec;1.10 [compile->master]
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->javax.mail#mail;1.4.7 [compile->default(compile)]
 [info] Resolving javax.mail#mail;1.4.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6d206345
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4b348e6e
 [debug] sbt-chain: module revision found in cache: javax.mail#mail;1.4.7
 [debug] 	found javax.mail#mail;1.4.7 in sbt-chain
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->javax.mail#mail;1.4.7 [compile->runtime]
@@ -146,7 +146,7 @@
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->javax.mail#mail;1.4.7 [compile->master]
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->javax.activation#activation;1.1 [compile->default(compile)]
 [info] Resolving javax.activation#activation;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7414343e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@477d3b87
 [debug] sbt-chain: module revision found in cache: javax.activation#activation;1.1
 [debug] 	found javax.activation#activation;1.1 in sbt-chain
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->javax.activation#activation;1.1 [compile->runtime]
@@ -154,7 +154,7 @@
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->javax.activation#activation;1.1 [compile->master]
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->nu.validator.htmlparser#htmlparser;1.4 [compile->default(compile)]
 [info] Resolving nu.validator.htmlparser#htmlparser;1.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@cdcf7e3
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5eaa83c6
 [debug] sbt-chain: module revision found in cache: nu.validator.htmlparser#htmlparser;1.4
 [debug] 	found nu.validator.htmlparser#htmlparser;1.4 in sbt-chain
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->nu.validator.htmlparser#htmlparser;1.4 [compile->runtime]
@@ -162,7 +162,7 @@
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->nu.validator.htmlparser#htmlparser;1.4 [compile->master]
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->xerces#xercesImpl;2.11.0 [compile->default(compile)]
 [info] Resolving xerces#xercesImpl;2.11.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4aabfef5
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2395d405
 [debug] sbt-chain: module revision found in cache: xerces#xercesImpl;2.11.0
 [debug] 	found xerces#xercesImpl;2.11.0 in sbt-chain
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->xerces#xercesImpl;2.11.0 [compile->runtime]
@@ -170,7 +170,7 @@
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->xerces#xercesImpl;2.11.0 [compile->master]
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->xml-apis#xml-apis;1.4.01 [compile->default(compile)]
 [info] Resolving xml-apis#xml-apis;1.4.01 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2c354818
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@209728a0
 [debug] sbt-chain: module revision found in cache: xml-apis#xml-apis;1.4.01
 [debug] 	found xml-apis#xml-apis;1.4.01 in sbt-chain
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->xml-apis#xml-apis;1.4.01 [compile->runtime]
@@ -178,9 +178,9 @@
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->xml-apis#xml-apis;1.4.01 [compile->master]
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->commons-fileupload#commons-fileupload;1.3.1 [compile->default(compile)]
 [info] Resolving commons-fileupload#commons-fileupload;1.3.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5a345166
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3126601b
 [info] Resolving commons-fileupload#commons-fileupload;1.3.1 ...
-[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@5a345166
+[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@3126601b
 [debug] 		tried /home/pavel/.ivy2/local/commons-fileupload/commons-fileupload/1.3.1/ivys/ivy.xml
 [debug] 	local: no ivy file found for commons-fileupload#commons-fileupload;1.3.1
 [debug] 		tried https://jcenter.bintray.com/commons-fileupload/commons-fileupload/1.3.1/commons-fileupload-1.3.1.pom
@@ -190,7 +190,7 @@
 [debug] 	jcenter: downloading https://jcenter.bintray.com/commons-fileupload/commons-fileupload/1.3.1/commons-fileupload-1.3.1.pom
 [debug] 	jcenter: downloading https://jcenter.bintray.com/commons-fileupload/commons-fileupload/1.3.1/commons-fileupload-1.3.1.pom.sha1
 [debug] sha1 OK for https://jcenter.bintray.com/commons-fileupload/commons-fileupload/1.3.1/commons-fileupload-1.3.1.pom
-[debug] 	[SUCCESSFUL ] commons-fileupload#commons-fileupload;1.3.1!commons-fileupload.pom(pom.original) (144ms)
+[debug] 	[SUCCESSFUL ] commons-fileupload#commons-fileupload;1.3.1!commons-fileupload.pom(pom.original) (148ms)
 [info] Resolving org.apache.commons#commons-parent;32 ...
 [debug] sbt-chain: Checking cache for: dependency: org.apache.commons#commons-parent;32 {}
 [info] Resolving org.apache.commons#commons-parent;32 ...
@@ -204,7 +204,7 @@
 [debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/commons/commons-parent/32/commons-parent-32.pom
 [debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/commons/commons-parent/32/commons-parent-32.pom.sha1
 [debug] sha1 OK for https://jcenter.bintray.com/org/apache/commons/commons-parent/32/commons-parent-32.pom
-[debug] 	[SUCCESSFUL ] org.apache.commons#commons-parent;32!commons-parent.pom(pom.original) (191ms)
+[debug] 	[SUCCESSFUL ] org.apache.commons#commons-parent;32!commons-parent.pom(pom.original) (203ms)
 [info] Resolving org.apache#apache;13 ...
 [debug] sbt-chain: Checking cache for: dependency: org.apache#apache;13 {}
 [debug] sbt-chain: module revision found in cache: org.apache#apache;13
@@ -223,7 +223,7 @@
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->commons-fileupload#commons-fileupload;1.3.1 [compile->master]
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->commons-io#commons-io;2.2 [compile->default(compile)]
 [info] Resolving commons-io#commons-io;2.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@34cb54ee
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3bff280c
 [debug] sbt-chain: module revision found in cache: commons-io#commons-io;2.2
 [debug] 	found commons-io#commons-io;2.2 in sbt-chain
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->commons-io#commons-io;2.2 [compile->runtime]
@@ -231,7 +231,7 @@
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->commons-io#commons-io;2.2 [compile->master]
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.mozilla#rhino;1.7.7.1 [compile->default(compile)]
 [info] Resolving org.mozilla#rhino;1.7.7.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@42fbf1e9
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@65ba0eb5
 [debug] sbt-chain: module revision found in cache: org.mozilla#rhino;1.7.7.1
 [debug] 	found org.mozilla#rhino;1.7.7.1 in sbt-chain
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.mozilla#rhino;1.7.7.1 [compile->runtime]
@@ -239,7 +239,7 @@
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.mozilla#rhino;1.7.7.1 [compile->master]
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->net.liftmodules#lift-jquery-module_3.0_2.11;2.9 [compile->default(compile)]
 [info] Resolving net.liftmodules#lift-jquery-module_3.0_2.11;2.9 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@14cd6c0f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@34308862
 [debug] sbt-chain: module revision found in cache: net.liftmodules#lift-jquery-module_3.0_2.11;2.9
 [debug] 	found net.liftmodules#lift-jquery-module_3.0_2.11;2.9 in sbt-chain
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->net.liftmodules#lift-jquery-module_3.0_2.11;2.9 [compile->runtime]
@@ -247,7 +247,7 @@
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->net.liftmodules#lift-jquery-module_3.0_2.11;2.9 [compile->master]
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->ch.qos.logback#logback-classic;1.1.3 [compile->default(compile)]
 [info] Resolving ch.qos.logback#logback-classic;1.1.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1eda1e73
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@c8c8c6
 [debug] sbt-chain: module revision found in cache: ch.qos.logback#logback-classic;1.1.3
 [debug] 	found ch.qos.logback#logback-classic;1.1.3 in sbt-chain
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->ch.qos.logback#logback-classic;1.1.3 [compile->runtime]
@@ -255,7 +255,7 @@
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->ch.qos.logback#logback-classic;1.1.3 [compile->master]
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->ch.qos.logback#logback-core;1.1.3 [compile->default(compile)]
 [info] Resolving ch.qos.logback#logback-core;1.1.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@43e3f5a5
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@41fef88e
 [debug] sbt-chain: module revision found in cache: ch.qos.logback#logback-core;1.1.3
 [debug] 	found ch.qos.logback#logback-core;1.1.3 in sbt-chain
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->ch.qos.logback#logback-core;1.1.3 [compile->runtime]
@@ -263,7 +263,7 @@
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->ch.qos.logback#logback-core;1.1.3 [compile->master]
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.slf4j#slf4j-api;1.7.7 [compile->default(compile)]
 [info] Resolving org.slf4j#slf4j-api;1.7.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6ae6cd9d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@791f293f
 [debug] sbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.7.7
 [debug] 	found org.slf4j#slf4j-api;1.7.7 in sbt-chain
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.slf4j#slf4j-api;1.7.7 [compile->runtime]
@@ -838,7 +838,7 @@
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.slf4j#slf4j-api;1.7.7 [test->master]
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.eclipse.jetty#jetty-webapp;8.1.17.v20150415 [test->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-webapp;8.1.17.v20150415 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@131e1ffc
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7c9e08b1
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-webapp;8.1.17.v20150415
 [debug] 	found org.eclipse.jetty#jetty-webapp;8.1.17.v20150415 in sbt-chain
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.eclipse.jetty#jetty-webapp;8.1.17.v20150415 [test->runtime]
@@ -846,7 +846,7 @@
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.eclipse.jetty#jetty-webapp;8.1.17.v20150415 [test->master]
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.eclipse.jetty#jetty-xml;8.1.17.v20150415 [test->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-xml;8.1.17.v20150415 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5ef07f8a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3805bea0
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-xml;8.1.17.v20150415
 [debug] 	found org.eclipse.jetty#jetty-xml;8.1.17.v20150415 in sbt-chain
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.eclipse.jetty#jetty-xml;8.1.17.v20150415 [test->runtime]
@@ -854,7 +854,7 @@
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.eclipse.jetty#jetty-xml;8.1.17.v20150415 [test->master]
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.eclipse.jetty#jetty-util;8.1.17.v20150415 [test->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-util;8.1.17.v20150415 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@48fe9a2f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@10f0776f
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-util;8.1.17.v20150415
 [debug] 	found org.eclipse.jetty#jetty-util;8.1.17.v20150415 in sbt-chain
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.eclipse.jetty#jetty-util;8.1.17.v20150415 [test->runtime]
@@ -862,7 +862,7 @@
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.eclipse.jetty#jetty-util;8.1.17.v20150415 [test->master]
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.eclipse.jetty#jetty-servlet;8.1.17.v20150415 [test->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-servlet;8.1.17.v20150415 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@178f65ff
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@b3e0b80
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-servlet;8.1.17.v20150415
 [debug] 	found org.eclipse.jetty#jetty-servlet;8.1.17.v20150415 in sbt-chain
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.eclipse.jetty#jetty-servlet;8.1.17.v20150415 [test->runtime]
@@ -870,7 +870,7 @@
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.eclipse.jetty#jetty-servlet;8.1.17.v20150415 [test->master]
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.eclipse.jetty#jetty-security;8.1.17.v20150415 [test->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-security;8.1.17.v20150415 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7fda449
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@50b4122f
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-security;8.1.17.v20150415
 [debug] 	found org.eclipse.jetty#jetty-security;8.1.17.v20150415 in sbt-chain
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.eclipse.jetty#jetty-security;8.1.17.v20150415 [test->runtime]
@@ -878,7 +878,7 @@
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.eclipse.jetty#jetty-security;8.1.17.v20150415 [test->master]
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.eclipse.jetty#jetty-server;8.1.17.v20150415 [test->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-server;8.1.17.v20150415 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@262c404e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1756c76a
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-server;8.1.17.v20150415
 [debug] 	found org.eclipse.jetty#jetty-server;8.1.17.v20150415 in sbt-chain
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.eclipse.jetty#jetty-server;8.1.17.v20150415 [test->runtime]
@@ -886,7 +886,7 @@
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.eclipse.jetty#jetty-server;8.1.17.v20150415 [test->master]
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [test->default(compile)]
 [info] Resolving org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7411a994
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2feb802e
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016
 [debug] 	found org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 in sbt-chain
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [test->runtime]
@@ -894,7 +894,7 @@
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [test->master]
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.eclipse.jetty#jetty-continuation;8.1.17.v20150415 [test->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-continuation;8.1.17.v20150415 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@131a0ce7
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4e0aea9
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-continuation;8.1.17.v20150415
 [debug] 	found org.eclipse.jetty#jetty-continuation;8.1.17.v20150415 in sbt-chain
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.eclipse.jetty#jetty-continuation;8.1.17.v20150415 [test->runtime]
@@ -902,7 +902,7 @@
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.eclipse.jetty#jetty-continuation;8.1.17.v20150415 [test->master]
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.eclipse.jetty#jetty-http;8.1.17.v20150415 [test->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-http;8.1.17.v20150415 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@15221b96
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@649f61f9
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-http;8.1.17.v20150415
 [debug] 	found org.eclipse.jetty#jetty-http;8.1.17.v20150415 in sbt-chain
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.eclipse.jetty#jetty-http;8.1.17.v20150415 [test->runtime]
@@ -910,7 +910,7 @@
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.eclipse.jetty#jetty-http;8.1.17.v20150415 [test->master]
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.eclipse.jetty#jetty-io;8.1.17.v20150415 [test->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-io;8.1.17.v20150415 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3ad01dda
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3e8f72df
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-io;8.1.17.v20150415
 [debug] 	found org.eclipse.jetty#jetty-io;8.1.17.v20150415 in sbt-chain
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.eclipse.jetty#jetty-io;8.1.17.v20150415 [test->runtime]
@@ -918,7 +918,7 @@
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.eclipse.jetty#jetty-io;8.1.17.v20150415 [test->master]
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.eclipse.jetty#jetty-plus;8.1.17.v20150415 [test->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-plus;8.1.17.v20150415 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@76a509aa
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@34011d06
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-plus;8.1.17.v20150415
 [debug] 	found org.eclipse.jetty#jetty-plus;8.1.17.v20150415 in sbt-chain
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.eclipse.jetty#jetty-plus;8.1.17.v20150415 [test->runtime]
@@ -926,7 +926,7 @@
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.eclipse.jetty#jetty-plus;8.1.17.v20150415 [test->master]
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.eclipse.jetty.orbit#javax.transaction;1.1.1.v201105210645 [test->default(compile)]
 [info] Resolving org.eclipse.jetty.orbit#javax.transaction;1.1.1.v201105210645 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@31839af4
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@62afb23f
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty.orbit#javax.transaction;1.1.1.v201105210645
 [debug] 	found org.eclipse.jetty.orbit#javax.transaction;1.1.1.v201105210645 in sbt-chain
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.eclipse.jetty.orbit#javax.transaction;1.1.1.v201105210645 [test->runtime]
@@ -934,7 +934,7 @@
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.eclipse.jetty.orbit#javax.transaction;1.1.1.v201105210645 [test->master]
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.eclipse.jetty#jetty-jndi;8.1.17.v20150415 [test->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-jndi;8.1.17.v20150415 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@55e4b473
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@47edb427
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-jndi;8.1.17.v20150415
 [debug] 	found org.eclipse.jetty#jetty-jndi;8.1.17.v20150415 in sbt-chain
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.eclipse.jetty#jetty-jndi;8.1.17.v20150415 [test->runtime]
@@ -942,7 +942,7 @@
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.eclipse.jetty#jetty-jndi;8.1.17.v20150415 [test->master]
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.eclipse.jetty.orbit#javax.mail.glassfish;1.4.1.v201005082020 [test->default(compile)]
 [info] Resolving org.eclipse.jetty.orbit#javax.mail.glassfish;1.4.1.v201005082020 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1945a591
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@32678b70
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty.orbit#javax.mail.glassfish;1.4.1.v201005082020
 [debug] 	found org.eclipse.jetty.orbit#javax.mail.glassfish;1.4.1.v201005082020 in sbt-chain
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.eclipse.jetty.orbit#javax.mail.glassfish;1.4.1.v201005082020 [test->runtime]
@@ -950,7 +950,7 @@
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.eclipse.jetty.orbit#javax.mail.glassfish;1.4.1.v201005082020 [test->master]
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.eclipse.jetty.orbit#javax.activation;1.1.0.v201105071233 [test->default(compile)]
 [info] Resolving org.eclipse.jetty.orbit#javax.activation;1.1.0.v201105071233 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1521a7f0
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@23b49df7
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty.orbit#javax.activation;1.1.0.v201105071233
 [debug] 	found org.eclipse.jetty.orbit#javax.activation;1.1.0.v201105071233 in sbt-chain
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.eclipse.jetty.orbit#javax.activation;1.1.0.v201105071233 [test->runtime]
@@ -958,7 +958,7 @@
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.eclipse.jetty.orbit#javax.activation;1.1.0.v201105071233 [test->master]
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.specs2#specs2-core_2.11;3.6.4 [test->default(compile)]
 [info] Resolving org.specs2#specs2-core_2.11;3.6.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@44d42359
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@e3da2a9
 [debug] sbt-chain: module revision found in cache: org.specs2#specs2-core_2.11;3.6.4
 [debug] 	found org.specs2#specs2-core_2.11;3.6.4 in sbt-chain
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.specs2#specs2-core_2.11;3.6.4 [test->runtime]
@@ -966,7 +966,7 @@
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.specs2#specs2-core_2.11;3.6.4 [test->master]
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.specs2#specs2-matcher_2.11;3.6.4 [test->default(compile)]
 [info] Resolving org.specs2#specs2-matcher_2.11;3.6.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@30323c6c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@59ad095b
 [debug] sbt-chain: module revision found in cache: org.specs2#specs2-matcher_2.11;3.6.4
 [debug] 	found org.specs2#specs2-matcher_2.11;3.6.4 in sbt-chain
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.specs2#specs2-matcher_2.11;3.6.4 [test->runtime]
@@ -974,7 +974,7 @@
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.specs2#specs2-matcher_2.11;3.6.4 [test->master]
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.specs2#specs2-common_2.11;3.6.4 [test->default(compile)]
 [info] Resolving org.specs2#specs2-common_2.11;3.6.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7299a1c4
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6a971e14
 [debug] sbt-chain: module revision found in cache: org.specs2#specs2-common_2.11;3.6.4
 [debug] 	found org.specs2#specs2-common_2.11;3.6.4 in sbt-chain
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.specs2#specs2-common_2.11;3.6.4 [test->runtime]
@@ -982,7 +982,7 @@
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.specs2#specs2-common_2.11;3.6.4 [test->master]
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.scalaz#scalaz-core_2.11;7.1.3 [test->default(compile)]
 [info] Resolving org.scalaz#scalaz-core_2.11;7.1.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@566a77d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3789b635
 [debug] sbt-chain: module revision found in cache: org.scalaz#scalaz-core_2.11;7.1.3
 [debug] 	found org.scalaz#scalaz-core_2.11;7.1.3 in sbt-chain
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.scalaz#scalaz-core_2.11;7.1.3 [test->runtime]
@@ -990,7 +990,7 @@
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.scalaz#scalaz-core_2.11;7.1.3 [test->master]
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.scalaz#scalaz-concurrent_2.11;7.1.3 [test->default(compile)]
 [info] Resolving org.scalaz#scalaz-concurrent_2.11;7.1.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2055009e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4638bf5e
 [debug] sbt-chain: module revision found in cache: org.scalaz#scalaz-concurrent_2.11;7.1.3
 [debug] 	found org.scalaz#scalaz-concurrent_2.11;7.1.3 in sbt-chain
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.scalaz#scalaz-concurrent_2.11;7.1.3 [test->runtime]
@@ -998,7 +998,7 @@
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.scalaz#scalaz-concurrent_2.11;7.1.3 [test->master]
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.scalaz#scalaz-effect_2.11;7.1.3 [test->default(compile)]
 [info] Resolving org.scalaz#scalaz-effect_2.11;7.1.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4ad99106
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6016fa73
 [debug] sbt-chain: module revision found in cache: org.scalaz#scalaz-effect_2.11;7.1.3
 [debug] 	found org.scalaz#scalaz-effect_2.11;7.1.3 in sbt-chain
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.scalaz#scalaz-effect_2.11;7.1.3 [test->runtime]
@@ -1006,7 +1006,7 @@
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.scalaz#scalaz-effect_2.11;7.1.3 [test->master]
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.scalaz.stream#scalaz-stream_2.11;0.7.2a [test->default(compile)]
 [info] Resolving org.scalaz.stream#scalaz-stream_2.11;0.7.2a ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@545e6b99
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3c42d93b
 [debug] sbt-chain: module revision found in cache: org.scalaz.stream#scalaz-stream_2.11;0.7.2a
 [debug] 	found org.scalaz.stream#scalaz-stream_2.11;0.7.2a in sbt-chain
 [debug] 	[0.7.2a] org.scalaz.stream#scalaz-stream_2.11;0.7.2a
@@ -1015,7 +1015,7 @@
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.scalaz.stream#scalaz-stream_2.11;0.7.2a [test->master]
 [debug] == resolving dependencies default#scireader$sources_2.11;1.0->org.scodec#scodec-bits_2.11;1.0.9 [test->default(compile)]
 [info] Resolving org.scodec#scodec-bits_2.11;1.0.9 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5d0a9bde
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5f77d73d
 [debug] sbt-chain: module revision found in cache: org.scodec#scodec-bits_2.11;1.0.9
 [debug] 	found org.scodec#scodec-bits_2.11;1.0.9 in sbt-chain
 [debug] 	[1.0.9] org.scodec#scodec-bits_2.11;1.0.9
@@ -2445,7 +2445,7 @@
 [debug] 	[NOT REQUIRED] org.scodec#scodec-bits_2.11;1.0.9!scodec-bits_2.11.jar
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar(src)
-[debug] :: resolution report :: resolve 2010ms :: artifacts dl 42ms
+[debug] :: resolution report :: resolve 1705ms :: artifacts dl 56ms
 [debug] 	report for default#scireader$sources_2.11;1.0 compile produced in /home/pavel/programming/coursera/SciReader/target/resolution-cache/reports/default-scireader$sources_2.11-compile.xml
 [debug] 	report for default#scireader$sources_2.11;1.0 runtime produced in /home/pavel/programming/coursera/SciReader/target/resolution-cache/reports/default-scireader$sources_2.11-runtime.xml
 [debug] 	report for default#scireader$sources_2.11;1.0 test produced in /home/pavel/programming/coursera/SciReader/target/resolution-cache/reports/default-scireader$sources_2.11-test.xml
@@ -2460,4 +2460,4 @@
 [debug] 	report for default#scireader$sources_2.11;1.0 pom produced in /home/pavel/programming/coursera/SciReader/target/resolution-cache/reports/default-scireader$sources_2.11-pom.xml
 [debug] 	report for default#scireader$sources_2.11;1.0 scala-tool produced in /home/pavel/programming/coursera/SciReader/target/resolution-cache/reports/default-scireader$sources_2.11-scala-tool.xml
 [debug] 	report for default#scireader$sources_2.11;1.0 container produced in /home/pavel/programming/coursera/SciReader/target/resolution-cache/reports/default-scireader$sources_2.11-container.xml
-[debug] 	resolve done (2010ms resolve - 42ms download)
+[debug] 	resolve done (1705ms resolve - 56ms download)
