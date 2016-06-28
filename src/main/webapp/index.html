@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
+      <script type="text/javascript"
+              src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" id="jquery">
+      </script>
     <meta charset="UTF-8">
     <title>SciReader Home Page</title>
     <style>
@@ -22,7 +25,7 @@
           <ol class="titles">
             <li id="arxivEntry"><h3 id="arxivTitle">[arXivTitle]</h3>
               <span id="arxivAuthors"><span class="author" id="arxivAuthor">[author]</span></span>
-              <p><a href="">Seems interesting</a></p>
+              <p><a id="btnInteresting" href="">Seems interesting</a></p>
               <p id="arxivAbstract">[Here goes abstract]</p>
             </li>
           </ol>

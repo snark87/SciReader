@@ -3,7 +3,12 @@ package snippet
 
 import net.liftweb.util.Helpers._
 import java.util.Date
+
 import arxiv._
+import net.liftweb.http.SHtml
+import net.liftweb.http.js.JsCmds.Alert
+import net.liftweb.http.js.{JsCmd, JsCmds}
+import net.liftweb.http.js.jquery.JqJsCmds
 
 class HelloWorld {
 
@@ -22,10 +27,20 @@ class HelloWorld {
   }
 
   def authors (paper: ArxivEntry) = "#arxivAuthor *" #> formatNames(paper.authors)
-  def count = "#count *" #> recent.length
+  def count = { println("count!")
+    "#count *" #> recent.length
+  }
+
+  def ajax: JsCmd = {
+    //JsCmds.Alert("Hello!")
+    Alert("!!!")
+  }
+
   def recentList =".titles" #>
     ("li #arxivEntry *" #> recent.map(x => ("#arxivTitle *" #> x.title) &
       ("#arxivAbstract *" #> x.summary) &
-      ("#arxivAuthors *" #> authors(x))))
+      ("#arxivAuthors *" #> authors(x)) &
+      ("#btnInteresting" #> SHtml.ajaxButton("btn", ajax _,"class" -> "btn") )
+    ))
 
 }
