@@ -19,3 +19,7 @@ exit
 reload
 container:start
 container:restart
+container:start
+test
+\
+container:restart

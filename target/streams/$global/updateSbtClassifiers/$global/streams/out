@@ -1266,9 +1266,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.5!scala-library.jar
-[debug] :: resolution report :: resolve 468ms :: artifacts dl 19ms
+[debug] :: resolution report :: resolve 774ms :: artifacts dl 23ms
 [debug] 	report for default#scireader$sbt_2.11;1.0 default produced in /home/pavel/programming/coursera/SciReader/target/resolution-cache/reports/default-scireader$sbt_2.11-default.xml
-[debug] 	resolve done (468ms resolve - 19ms download)
+[debug] 	resolve done (774ms resolve - 23ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: default#scireader$sources_2.11;1.0
 [debug] 	confs: [default]
@@ -1867,6 +1867,6 @@
 [debug] 	[NOT REQUIRED] org.scalaz#scalaz-core_2.10;7.1.0!scalaz-core_2.10.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.5!scala-library.jar(src)
 [debug] 	[NOT REQUIRED] org.scalaz#scalaz-effect_2.10;7.1.0!scalaz-effect_2.10.jar(src)
-[debug] :: resolution report :: resolve 101ms :: artifacts dl 12ms
+[debug] :: resolution report :: resolve 122ms :: artifacts dl 13ms
 [debug] 	report for default#scireader$sources_2.11;1.0 default produced in /home/pavel/programming/coursera/SciReader/target/resolution-cache/reports/default-scireader$sources_2.11-default.xml
-[debug] 	resolve done (101ms resolve - 12ms download)
+[debug] 	resolve done (122ms resolve - 13ms download)

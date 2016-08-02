@@ -4,7 +4,7 @@
 		module="scireader$sources_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20160628124742"
+		publication="20160802173721"
 	/>
 	<configurations>
 		<conf name="default" visibility="public" description=""/>

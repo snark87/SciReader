@@ -31,16 +31,16 @@ class HelloWorld {
     "#count *" #> recent.length
   }
 
-  def ajax: JsCmd = {
-    //JsCmds.Alert("Hello!")
-    Alert("!!!")
+  def like(arxivId:String): JsCmd = {
+    Alert("like:" + arxivId)
+    JqJsCmds.JqReplace(arxivId, <b>Like</b>)
   }
 
   def recentList =".titles" #>
     ("li #arxivEntry *" #> recent.map(x => ("#arxivTitle *" #> x.title) &
       ("#arxivAbstract *" #> x.summary) &
       ("#arxivAuthors *" #> authors(x)) &
-      ("#btnInteresting" #> SHtml.ajaxButton("btn", ajax _,"class" -> "btn") )
+      ("#btnInteresting" #> SHtml.ajaxButton(x.title, () => like(x.id),"id" -> x.id ))
     ))
 
 }
