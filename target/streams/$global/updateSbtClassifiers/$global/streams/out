@@ -24,6 +24,7 @@
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.8->org.scala-sbt#main;0.13.8 [compile->default(compile)]
 [info] Resolving org.scala-sbt#main;0.13.8 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#main;0.13.8 {compile=[default(compile)]}
+[debug] no default cache defined: set to /home/pavel/.ivy2/cache
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#main;0.13.8
 [debug] 	found org.scala-sbt#main;0.13.8 in sbt-chain
 [debug] == resolving dependencies org.scala-sbt#main;0.13.8->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
@@ -1266,9 +1267,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.5!scala-library.jar
-[debug] :: resolution report :: resolve 774ms :: artifacts dl 23ms
+[debug] :: resolution report :: resolve 620ms :: artifacts dl 32ms
 [debug] 	report for default#scireader$sbt_2.11;1.0 default produced in /home/pavel/programming/coursera/SciReader/target/resolution-cache/reports/default-scireader$sbt_2.11-default.xml
-[debug] 	resolve done (774ms resolve - 23ms download)
+[debug] 	resolve done (620ms resolve - 32ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: default#scireader$sources_2.11;1.0
 [debug] 	confs: [default]
@@ -1867,6 +1868,6 @@
 [debug] 	[NOT REQUIRED] org.scalaz#scalaz-core_2.10;7.1.0!scalaz-core_2.10.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.5!scala-library.jar(src)
 [debug] 	[NOT REQUIRED] org.scalaz#scalaz-effect_2.10;7.1.0!scalaz-effect_2.10.jar(src)
-[debug] :: resolution report :: resolve 122ms :: artifacts dl 13ms
+[debug] :: resolution report :: resolve 154ms :: artifacts dl 34ms
 [debug] 	report for default#scireader$sources_2.11;1.0 default produced in /home/pavel/programming/coursera/SciReader/target/resolution-cache/reports/default-scireader$sources_2.11-default.xml
-[debug] 	resolve done (122ms resolve - 13ms download)
+[debug] 	resolve done (154ms resolve - 34ms download)

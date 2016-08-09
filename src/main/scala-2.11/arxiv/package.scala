@@ -87,7 +87,10 @@ package object arxiv {
 }
 
 /*
-/*
+
+the, of, a, in, and, to, we, is, that, with, for, by, on, at, as, this, an, be, are, which, can, from, has, or, both, such,
+our, it, two, one, these, been, also, have, not, here, its, was, due, but, -, =, into,
+
 Most used words
 (the,1094), (of,649), (a,353), (in,332), (and,306), (to,270), (,224), (we,212), (is,168), (that,151), (with,143),
 (for,132), (by,106), (on,99), (at,91), (as,90), (magnetic,76), (this,74), (an,68), (superconducting,66), (be,63),
@@ -114,4 +117,4 @@ two,been,also,have, low, not, find, here, its, was, one, but, =, due, based, rec
 even, thus, other, only
  */
 
- */
+

@@ -16,7 +16,6 @@ rn	Report Number
 id	Id (use id_list instead)*/
 
 
-
 /**
   * http://export.arxiv.org/api/query?search_query=cat:cond-mat.supr-con&sortBy=submittedDate&sortOrder=descending
   * Created by pavel on 6/20/16.
@@ -33,14 +32,16 @@ class Fetcher(arxivApiUrl: String) {
   val tagId = "id"
 
 
-//todo: merging different cats
+  //todo: merging different cats
   // (possible problem: there are intersections)
 
-  def fetchCatsByDate(categories:List[String], afterFilter: Date => Boolean): Vector[ArxivEntry] = ???
+  def fetchCatsByDate(categories: List[String], afterFilter: Date => Boolean): Vector[ArxivEntry] = ???
+
   def merge(vectors: List[Vector[ArxivEntry]]): Vector[ArxivEntry] = ???
+
   /**
     *
-    * @param cat arXiv category e.g. "cond-mat.supr-con"
+    * @param cat         arXiv category e.g. "cond-mat.supr-con"
     * @param afterFilter filter, that filters all dates after given
     * @return arXiv entries for recent papers
     */
@@ -51,22 +52,24 @@ class Fetcher(arxivApiUrl: String) {
 
       val atom = fetchXML(query.start(start).maxResults(maxResults).text)
       val papers = entries(atom)
-      if (papers.isEmpty) papers  //recursion ends if out of papers
+      if (papers.isEmpty) papers //recursion ends if out of papers
       else {
         val lastDate = papers.last.published
         if (afterFilter(lastDate)) {
-          fetchPage(acc ++ papers, start + papers.length, maxResults)   //goto next page, tail recursion
+          fetchPage(acc ++ papers, start + papers.length, maxResults) //goto next page, tail recursion
         } else
           acc ++ papers.filter(p => afterFilter(p.published)) //todo: optimize - the results are already sorted;
-                                                              //recursion ends if last paper is too old
+        //recursion ends if last paper is too old
       }
     }
     val resultsPerPage = 10 //magic number
     fetchPage(Vector[ArxivEntry](), 0, resultsPerPage)
   }
 
+
   def fetchXML(query: String): Elem =
     XML.load(arxivApiUrl + "?" + query)
+
 
   // todo: handle strToInt exception
   def totalResults(atom: Elem): Int =
@@ -82,13 +85,13 @@ class Fetcher(arxivApiUrl: String) {
     val links = (atom \ tagLink).toList map link
     val updated = datetime((atom \ tagUpdated).text)
     val published = datetime((atom \ tagPublished).text)
-    val authors = (atom \ tagAuthor).toList map(node => ArxivAuthor((node\tagName).text))
+    val authors = (atom \ tagAuthor).toList map (node => ArxivAuthor((node \ tagName).text))
 
     ArxivEntry(id, title, authors, summary, links, updated, published)
   }
 
-  def extractId(url:String) =
-    url.split('/').last.replace('.','d')
+  def extractId(url: String) =
+    url.split('/').last.replace('.', 'd')
 
   def datetime(s: String): Date = {
 

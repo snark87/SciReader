@@ -37,6 +37,24 @@ case class ArxivLink(title: String, href: String)
 
 case class ArxivAuthor(name: String)
 
-case class ArxivEntry (id: String, title: String, authors: List[ArxivAuthor], summary: String, links: List[ArxivLink], updated: Date, published: Date)
+/**
+  * arxiv preprint data structure
+  *
+  * @param id arxiv preprint id e.g. 1234.56678v1)
+  * @param title pr
+  * @param authors
+  * @param summary
+  * @param links
+  * @param updated
+  * @param published
+  */
+
+case class ArxivEntry (id: String,
+                       title: String,
+                       authors: List[ArxivAuthor],
+                       summary: String,
+                       links: List[ArxivLink],
+                       updated: Date,
+                       published: Date)
 
 
